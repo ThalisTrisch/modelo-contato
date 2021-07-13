@@ -3,7 +3,7 @@ body{
     margin:0px;
     background-size: cover;
 }.tabela{
-    width:100%;height:100%;margin:0%;
+    width: 100%;height:100%;margin:0px;
 }.coluna1{
     width:17.5%;
 }.coluna2{
@@ -27,12 +27,20 @@ body{
     transform: scale(1.10);
 }.titulo{
     font-size:50px;margin-top:30px;font-family:'montserrat'
-}.menu{
-    width: 80px;
-    height:60px;
-}.menu2{
-    width: 90px;
-    height:70px;
+}#b1,#b2,#b3{
+    transition:background-color;
+    transition-duration: 1s;
+}#b1:hover{
+    background-color:rgba(0, 255, 76, 0.719);
+}
+#b2:hover{
+    background-color:rgba(255, 30, 0, 0.76);
+}
+#b3:hover{
+    background-color:rgba(0, 195, 255, 0.651);
+}.vazio{
+    color:transparent
+}
     color: rgb(145, 145, 145);
     margin-left: 10px;
 }#b1,#b2,#b3{
